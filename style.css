@@ -6,6 +6,7 @@
 	
 }
 
+/*CSS da header e seus elementos*/
 header{
 	position: fixed;
 	display: flex;
@@ -53,3 +54,4 @@ nav div a{
 	text-shadow: none;
 	box-shadow: 5px 5px 3px black;
 }
+/*CSS da header e seus elementos*/
