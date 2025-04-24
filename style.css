@@ -19,13 +19,13 @@ header{
 	font-size: 1.1rem;
 	color: #B8860B;
 }
-
 header h1{
 	font-family: "MedievalSharp", cursive;
 	background-image: url(Assets/logo.png);
 	background-repeat: no-repeat;
 	padding-left: 45px;
 	margin-left: 50px;
+	color: #B8860B;
 }
 
 nav{
@@ -55,3 +55,129 @@ nav div a{
 	box-shadow: 5px 5px 3px black;
 }
 /*CSS da header e seus elementos*/
+
+main{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1{
+	text-align: center;
+	font-family: "MedievalSharp", cursive;
+	color: #8B0000;
+	font-size: xxx-large;
+	text-shadow: black 2.5px 1.5px;
+	margin-bottom: 0;
+}
+
+/*section inicio*/
+#inicio{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(Assets/fundoInicio.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	color: #EAE0C8;
+
+}
+
+#inicio h1 span{
+	font-family: "MedievalSharp", cursive;
+	color: #D3C9B0;
+	font-size: xx-large;
+}
+
+#inicio h2{
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+#inicio p{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+button{
+	background-color: #B8860B;
+	color: #EAE0C8;
+	padding: 15px;
+	border-radius: 40px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	cursor: pointer;
+	font-size: x-large;
+	font-weight: bold;
+}
+/*section inicio*/
+/*section painel*/
+
+#painel{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(Assets/FundoTexturaPapel.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	color: #EAE0C8;
+
+}
+
+#painel h1{
+	text-shadow: none;
+	margin-bottom: 0;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr)
+}
+
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(Assets/pergaminho.png);
+	background-size: cover;
+	width: 300px;
+	height: 400px;
+	color: black;
+}
+.guia h2{
+	margin-top: 100px;
+	background-image: url(Assets/livro_aberto.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 200px;
+}
+
+.dados h2{
+	text-align: center;
+	width: 200px;
+	margin-top: 100px;
+	background-image: url(Assets/dadoD20.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 200px;
+}
+
+.sistemas h2{
+	margin-top: 100px;
+	background-image: url(Assets/livros_empilhados.png);
+	background-size: cover;
+	background-position: bottom;
+	padding-bottom: 200px;
+}
