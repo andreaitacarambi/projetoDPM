@@ -11,20 +11,22 @@ header{
 	position: fixed;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-content: center;
 	flex-wrap: nowrap;
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	background-color: #2C2C2C;
 	font-size: 1.1rem;
 	color: #B8860B;
 }
 header h1{
 	font-family: "MedievalSharp", cursive;
+	font-size: xx-large;
 	background-image: url(Assets/logo.png);
 	background-repeat: no-repeat;
 	padding-left: 45px;
 	margin-left: 50px;
+	margin-bottom: 15px;
 	color: #B8860B;
 }
 
@@ -57,7 +59,7 @@ nav div a{
 /*CSS da header e seus elementos*/
 
 main{
-	padding-top: 80px;
+	padding-top: 70px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
