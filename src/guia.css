@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MedievalSharp&display=swap');
+
+*{
+	font-family: "Cormorant Garamond", serif;
+	margin: auto;
+	
+}
+
+/*CSS da header e seus elementos*/
+header{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 80px;
+	background-color: #2C2C2C;
+	font-size: 1.1rem;
+	color: #B8860B;
+}
+
+header h1{
+	font-family: "MedievalSharp", cursive;
+	background-image: url(../Assets/logo.png);
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	margin-left: 50px;
+	color: #B8860B;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 50px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #B8860B;
+	margin: 10px;
+	font-size: 1.1rem;
+	text-shadow: black 1.5px 1.5px;
+}
+
+nav div{
+	margin-left: 30px;
+}
+
+nav div a{
+	background-color: #B8860B;
+	color: #EAE0C8;
+	padding: 10px;
+	border-radius: 40px;
+	text-shadow: none;
+	box-shadow: 5px 5px 3px black;
+}
+
+main{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+
+h1{
+	text-align: center;
+	font-family: "MedievalSharp", cursive;
+	color: #2C2C2C;
+	font-size: xxx-large;
+	text-shadow:black 2.5px 1.5px;
+	margin-bottom: 0;
+}
+
+
