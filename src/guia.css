@@ -5,7 +5,6 @@
 	margin: auto;
 	
 }
-
 /*CSS da header e seus elementos*/
 header{
 	position: fixed;
@@ -61,6 +60,17 @@ main{
 	display: flex;
 	flex-direction: column;
 	justify-content:center;
+	background-image: url(../Assets/FundoTexturaPapel.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+	
+section {
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -68,8 +78,71 @@ h1{
 	font-family: "MedievalSharp", cursive;
 	color: #2C2C2C;
 	font-size: xxx-large;
-	text-shadow:black 2.5px 1.5px;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
+h1 span {
+	text-align: center;
+	font-family: "MedievalSharp", cursive;
+    font-size: xxx-large;
+    color: #8B0000;
+}
+
+h2 {
+    font-family: "MedievalSharp", cursive;
+    color: #B8860B;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #2C2C2C;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Definition list styling */
+dl {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 10px;
+}
+
+dt {
+    font-weight: bold;
+    color: #2C2C2C;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #2C2C2C;
+}
+
+/* Button styling */
+button {
+    background-color: #B8860B; 
+    color: #EAE0C8;
+    padding: 10px 20px;
+    font-family: "MedievalSharp", cursive;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	cursor: pointer;
+	font-size:x-large;
+	font-weight: bold;
+}
 
