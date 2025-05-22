@@ -5,55 +5,8 @@
 	margin: auto;
 	
 }
-/*CSS da header e seus elementos*/
-header{
-	position: fixed;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: nowrap;
-	width: 100%;
-	height: 80px;
-	background-color: #2C2C2C;
-	font-size: 1.1rem;
-	color: #B8860B;
-}
 
-header h1{
-	font-family: "MedievalSharp", cursive;
-	background-image: url(../Assets/logo.png);
-	background-repeat: no-repeat;
-	padding-left: 45px;
-	margin-left: 50px;
-	color: #B8860B;
-}
 
-nav{
-	display: flex;
-	justify-content: space-between;
-	margin-right: 50px;
-}
-
-nav a{
-	text-decoration: none;
-	color: #B8860B;
-	margin: 10px;
-	font-size: 1.1rem;
-	text-shadow: black 1.5px 1.5px;
-}
-
-nav div{
-	margin-left: 30px;
-}
-
-nav div a{
-	background-color: #B8860B;
-	color: #EAE0C8;
-	padding: 10px;
-	border-radius: 40px;
-	text-shadow: none;
-	box-shadow: 5px 5px 3px black;
-}
 
 main{
 	padding-top: 80px;
@@ -72,6 +25,47 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Início Título Cabeçalho*/
+.titulo{
+	margin-top: 25px;
+}
+
+.titulo #guia{
+    color: #8B0000;
+}
+
+.titulo #jogador{
+    color: #B8860B;
+}
+
+.seletores{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.seletores h6{
+    font-family: "MedievalSharp", cursive;
+    color: #B8860B;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+/*Fim Título Cabeçalho*/
+
+/*Secção Jogador*/
+.section-jogador{
+    display: flex;
+}
+
+.section-jogador img{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+/*Fim Secção Jogador*/
 
 h1{
 	text-align: center;
@@ -107,7 +101,6 @@ p {
     margin-right: auto;
 }
 
-/* Definition list styling */
 dl {
     text-align: left;
     max-width: 800px;
@@ -128,8 +121,7 @@ dd {
     color: #2C2C2C;
 }
 
-/* Button styling */
-button {
+button { 
     background-color: #B8860B; 
     color: #EAE0C8;
     padding: 10px 20px;

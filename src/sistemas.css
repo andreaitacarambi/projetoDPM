@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MedievalSharp&display=swap');
+
+*{
+	font-family: "Cormorant Garamond", serif;
+	margin: auto;
+	
+}
+
+main{
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	background-image: url(../Assets/FundoTexturaPapel.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
