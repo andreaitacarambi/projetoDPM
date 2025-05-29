@@ -60,6 +60,7 @@
     /*CSS da header e seus elementos*/
 main{
 	padding-top: 80px;
+	height: 87vh;
 	display: flex;
 	flex-direction: column;
 	justify-content:center;
@@ -69,3 +70,37 @@ main{
 	background-position: center;
 }
 
+h1{
+	text-align: center;
+	font-family: "MedievalSharp", cursive;
+	color: #8B0000;
+	font-size: xxx-large;
+	margin-bottom: 0;
+}
+a{
+	text-decoration: none;
+	color: #2C2C2C;
+
+}
+
+.card{
+	width: 175px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../Assets/pedra.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px ;
+}
+
+img{
+	width: 100px;
+	margin-bottom: 5px;
+}
+p{
+	margin-top: 5px;
+	font-weight: bold;
+}

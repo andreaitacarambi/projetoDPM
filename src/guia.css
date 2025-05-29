@@ -115,6 +115,27 @@ section {
     height: 300px;
     margin-right: 20px;
 }
+
+dl {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 10px;
+}
+
+dt {
+    font-weight: bold;
+    color: #2C2C2C;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #2C2C2C;
+}
+
 /*Fim Secção Jogador*/
 
 h1{
@@ -125,12 +146,7 @@ h1{
 	margin-bottom: 20px;
 }
 
-h1 span {
-	text-align: center;
-	font-family: "MedievalSharp", cursive;
-    font-size: xxx-large;
-    color: #8B0000;
-}
+
 
 h2 {
     font-family: "MedievalSharp", cursive;
@@ -151,24 +167,8 @@ p {
     margin-right: auto;
 }
 
-dl {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto 20px;
-    padding: 10px;
-}
-
-dt {
-    font-weight: bold;
-    color: #2C2C2C;
-    margin-top: 10px;
-    font-size: 1.1em;
-}
-
-dd {
-    margin-left: 20px;
-    margin-bottom: 10px;
-    color: #2C2C2C;
+a{
+    text-decoration: none;
 }
 
 button { 
