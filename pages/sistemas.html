@@ -11,7 +11,7 @@
     <header>
     <h1>GrimórioRPG</h1>
     <nav>
-        <a href="/index.html">Inicio</a>
+        <a href="/projetoDPM/index.html">Inicio</a>
         <a href="https://andreaitacarambi.github.io/projetoDPM/pages/guia.html">Guia para iniciantes</a>
         <a href="https://andreaitacarambi.github.io/projetoDPM/pages/dados.html">Dados</a>
         <a href="https://andreaitacarambi.github.io/projetoDPM/pages/sistemas.html">Sistemas</a>
@@ -24,24 +24,10 @@
             <h1>Sistemas de RPG</h1>
             <div>
                 <img src="../Assets/D&D.png" alt="Dungeons and Dragons Logo">
+                <img src="../Assets/pedra.png" alt="pedra">
                 <p>Dungeons and Dragons</p>
             </div>
     </section>
 </main>
 </body>
 </html>
-<script>
-    // Função para carregar o header
-    async function loadHeader() {
-        try {
-            const response = await fetch('../Elements/header.html');
-            const headerHTML = await response.text();
-            document.getElementById('header-container').innerHTML = headerHTML;
-        } catch (error) {
-            console.error('Erro ao carregar o header:', error);
-        }
-    }
-
-    // Carrega o header quando a página carrega
-    document.addEventListener('DOMContentLoaded', loadHeader);
-</script>
