@@ -8,7 +8,16 @@
 </head>
 <body>
     <!--Header-->
-    <div id="header-container"></div>
+    <header>
+    <h1>GrimórioRPG</h1>
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="https://andreaitacarambi.github.io/projetoDPM/pages/guia.html">Guia para iniciantes</a>
+        <a href="https://andreaitacarambi.github.io/projetoDPM/pages/dados.html">Dados</a>
+        <a href="https://andreaitacarambi.github.io/projetoDPM/pages/sistemas.html">Sistemas</a>
+        <a href="#">Sobre</a>
+    </nav>
+</header>
     <!--Fim da Header-->
     <main>
         <section id="dados">
@@ -49,18 +58,3 @@
     </main>
 </body>
 </html>
-<script>
-    // Função para carregar o header
-    async function loadHeader() {
-        try {
-            const response = await fetch('../Elements/header.html');
-            const headerHTML = await response.text();
-            document.getElementById('header-container').innerHTML = headerHTML;
-        } catch (error) {
-            console.error('Erro ao carregar o header:', error);
-        }
-    }
-
-    // Carrega o header quando a página carrega
-    document.addEventListener('DOMContentLoaded', loadHeader);
-</script>

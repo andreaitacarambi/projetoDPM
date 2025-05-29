@@ -5,6 +5,60 @@
 	margin: auto;
 }
 
+/*CSS da header e seus elementos*/
+    header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 70px;
+        background-color: #2C2C2C;
+        font-size: 1.1rem;
+        color: #B8860B;
+    }
+
+    header h1{
+        text-shadow: black 2.5px 1.5px;
+        font-family: "MedievalSharp", cursive;
+        font-size: xx-large;
+        background-image: url(../Assets/logo.png);
+        background-repeat: no-repeat;
+        padding-left: 45px;
+        margin-left: 50px;
+        margin-bottom: 15px;
+        color: #B8860B;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: #B8860B;
+        margin: 10px;
+        font-size: 1.1rem;
+        text-shadow: black 1.5px 1.5px;
+    }
+
+    nav div{
+        margin-left: 30px;
+    }
+
+    nav div a{
+        background-color: #B8860B;
+        color: #EAE0C8;
+        padding: 10px;
+        border-radius: 40px;
+        text-shadow: none;
+        box-shadow: 5px 5px 3px black;
+    }
+    /*CSS da header e seus elementos*/
+
 main{
 	padding-top: 70px;
 	display: flex;
