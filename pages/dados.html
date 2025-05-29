@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/dados.css">
+    <title>Projeto DPM</title>
+</head>
+<body>
+    <!--Header-->
+    <div id="header-container"></div>
+    <!--Fim da Header-->
+    <main>
+        <section id="dados">
+            <h1>Os Dados</h1>
+            <h2>O teu arsenal da sorte</h2>
+            <p>No RPG, os dados são mais do que simples ferramentas de sorte: são o coração das decisões, dos combates e <br>
+            das consequências. Cada tipo de dado representa um papel diferente e está ligado a momentos únicos da <br>
+            aventura. Em RPG, os dados são nomeados com a letra "d" seguida do número de faces. Ex: d20.</p>
+        </section>
+        <section>
+            <h2>Tipos de Dados</h2>
+            <img src="../Assets/d4.png" alt="Dado d4">
+            <img src="../Assets/d6.png" alt="Dado d6">
+            <img src="../Assets/d8.png" alt="Dado d8">
+            <img src="../Assets/d10.png" alt="Dado d10">
+            <img src="../Assets/d12.png" alt="Dado d12">
+            <img src="../Assets/d20.png" alt="Dado d20">
+        </section>
+        <section>
+            <h2>Quando Usar os Dados?</h2>
+            <ul>
+                <li><strong>Testes de Atributo:</strong>força, destreza, inteligência, etc. (normalmente com d20 + modificador)</li>
+                <li><strong>Ataques e Magias:</strong>rola-se um d20 para atingir, depois outro dado para calcular dano.</li>
+                <li><strong>Testes de Resistência:</strong>para evitar armadilhas, efeitos mágicos, doenças, etc.</li>
+                <li><strong>Jogadas de Sorte ou Aleatoriedade:</strong>como descobrir um item raro ou decidir o efeito de uma magia caótica.</li>
+            </ul>
+        </section>
+        <section>
+            <h2> Modificadores e Bônus</h2>
+            <p>Nem sempre o resultado depende só da sorte. O valor final da rolagem pode ser influenciado por:</p>
+            <ul>
+                <li><strong>Atributos do personagem</strong></li>
+                <li><strong>Proficiência</strong></li>
+                <li><strong>Efeitos mágicos ou condições do ambiente</strong></li>
+                <li><strong>Vantagem/desvantagem</strong>(rolar dois d20 e escolher o melhor ou o pior resultado)</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+<script>
+    // Função para carregar o header
+    async function loadHeader() {
+        try {
+            const response = await fetch('Elements/header.html');
+            const headerHTML = await response.text();
+            document.getElementById('header-container').innerHTML = headerHTML;
+        } catch (error) {
+            console.error('Erro ao carregar o header:', error);
+        }
+    }
+
+    // Carrega o header quando a página carrega
+    document.addEventListener('DOMContentLoaded', loadHeader);
+</script>

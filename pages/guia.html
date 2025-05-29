@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../src/guia.css">
     <title>Projeto DPM</title>
 </head>
-<body>
- <!--Header-->
- <header>
-    <h1>GrimórioRPG</h1>
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#guia">Guia para iniciantes</a>
-        <a href="#dados">Dados</a>
-        <a href="#sistemas">Sistemas</a>
-        <a href="#sobre">Sobre</a>
-    </nav>
-</header>
+<body>  
+<!--Header-->
+    <div id="header-container"></div>
 <!--Fim da Header-->
 <main>
-    <section id="inicio">
-        <h1><span>Guia para iniciantes</span> <br> Qual o seu papel? <br> Jogador</h1>
+    <section>
+        <div class="titulo">
+
+            <h1 id="guia">Guia para iniciantes</h1>
+            <br><h1>Qual o seu papel?</h1>
+            <br><h1 id="jogador">Jogador</h1>
+
             <p>No RPG, um jogador é alguém que controla um personagem fictício, tomando decisões e agindo em nome <br> 
             desse personagem dentro do mundo do jogo. O jogador influencia a história através das escolhas que faz,<br> 
             interagindo com o ambiente e outros personagens..</p>
-            <div class="Jogador">
-            <h2>jogador</h2>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="seletores">
+            <h6>Jogador</h6>
+            <h6>Mestre</h6>
+        </div>
+            
+        <div class="section-jogador">
+
+            <img src="../Assets/player.png" alt="Imagem do Jogador">
+
             <dl>
                 <dt>Participante da história</dt>
                 <dd>O jogador assume o papel de um personagem, criado pelo mesmo, dentro do mundo do RPG. Define o seu nome, aparência, personalidade, habilidades e objetivos do personagem</dd>
@@ -39,6 +48,8 @@
             </dl>
         </div>
     </section>
+
+    
     <section id="dados">
         <h1>Para que servem os dados?</h1>
             <p>Os dados em RPG são utilizados para gerar resultados aleatórios durante o jogo, <br>
@@ -60,3 +71,19 @@
 </main>
 </body>
 </html>
+
+<script>
+    // Função para carregar o header
+    async function loadHeader() {
+        try {
+            const response = await fetch('../Elements/header.html');
+            const headerHTML = await response.text();
+            document.getElementById('header-container').innerHTML = headerHTML;
+        } catch (error) {
+            console.error('Erro ao carregar o header:', error);
+        }
+    }
+
+    // Carrega o header quando a página carrega
+    document.addEventListener('DOMContentLoaded', loadHeader);
+</script>

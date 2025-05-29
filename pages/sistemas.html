@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/sistemas.css">
+    <title>Projeto DPM</title>
+</head>
+<body>
+    <!--Header-->
+    <div id="header-container"></div>
+<!--Fim da Header-->
+<main>
+    <section>
+            <h1>Sistemas de RPG</h1>
+            <div>
+                <img src="../Assets/D&D.png" alt="Dungeons and Dragons Logo">
+                <p>Dungeons and Dragons</p>
+            </div>
+    </section>
+</main>
+</body>
+</html>
+<script>
+    // Função para carregar o header
+    async function loadHeader() {
+        try {
+            const response = await fetch('Elements/header.html');
+            const headerHTML = await response.text();
+            document.getElementById('header-container').innerHTML = headerHTML;
+        } catch (error) {
+            console.error('Erro ao carregar o header:', error);
+        }
+    }
+
+    // Carrega o header quando a página carrega
+    document.addEventListener('DOMContentLoaded', loadHeader);
+</script>
