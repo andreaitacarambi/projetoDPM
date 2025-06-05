@@ -14,14 +14,15 @@ A página oferece guias sobre criação de personagens, informações sobre os d
 ## Objetivo
 O Grimório RPG foi criado para:
 
-Democratizar o acesso ao RPG: Tornar o passatempo mais acessível com guias claros e recursos gratuitos.
-Inspirar criatividade: Fornecer ferramentas e ideias para jogadores e mestres desenvolverem as suas próprias histórias.
-Criar uma comunidade: Ser um ponto de encontro para entusiastas partilharem experiências e sugestões.
+Democratizar o acesso ao RPG: Tornar o passatempo mais acessível com guias claros e recursos gratuitos.  
+Inspirar criatividade: Fornecer ferramentas e ideias para jogadores e mestres desenvolverem as suas próprias histórias.  
+Criar uma comunidade: Ser um ponto de encontro para entusiastas partilharem experiências e sugestões.  
 
 ## Tecnologias Utilizadas
-HTML/CSS/JavaScript: Para a estrutura, estilo e interatividade da página.
-Framework (ex.: Bootstrap): Para um design responsivo e amigável.
-GitHub Pages: Para alojamento da página.
+HTML/CSS: Para a estrutura, estilo e interatividade da página.  
+GitHub Pages: Para alojamento da página.  
 
 ## Como Aceder
-Aceda ao Grimório RPG em [link-da-página]. Explore os recursos, transfira materiais e comece a sua jornada no RPG de mesa!
+Aceda ao Grimório RPG em [https://andreaitacarambi.github.io/projetoDPM/]. Explore os recursos, transfira materiais e comece a sua jornada no RPG de mesa!  
+
+![QRCode link site](https://andreaitacarambi.github.io/projetoDPM/adobe-express-qr-code.png)
