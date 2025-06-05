@@ -188,3 +188,151 @@ button {
 	font-weight: bold;
 }
 
+
+/* Responsividade apenas para o Header - Tablets (768px e abaixo) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header h1 {
+        font-size: x-large;
+        margin-right: 150px;
+        margin-bottom: 10px;
+        padding-left: 180px;
+        text-align: center;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    nav a {
+        margin: 5px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    nav div {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Ajusta o padding-top do main para compensar o header maior */
+    main {
+        padding-top: 130px;
+    }
+}
+
+/* Responsividade para Header - Smartphones (480px e abaixo) */
+@media (max-width: 480px) {
+    header {
+        padding: 12px 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header h1 {
+        font-size: large;
+        padding-left: 0;
+        margin-bottom: 8px;
+        text-align: center;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    
+    nav a {
+        font-size: 0.9rem;
+        margin: 3px 5px;
+        text-align: center;
+    }
+    
+    nav div {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    nav div a {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    
+    /* Ajusta o padding-top do main para mobile */
+    main {
+        padding-top: 150px;
+    }
+}
+
+/* Responsividade para Header - Telas muito pequenas (360px e abaixo) */
+@media (max-width: 360px) {
+    header {
+        padding: 10px 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header h1 {
+        font-size: medium;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 5px;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    nav {
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    nav a {
+        font-size: 0.8rem;
+        margin: 2px 3px;
+        text-align: center;
+    }
+    
+    nav div {
+        width: 100%;
+        justify-content: center;
+        margin-top: 8px;
+    }
+    
+    nav div a {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    main {
+        padding-top: 160px;
+    }
+}
