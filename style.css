@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=MedievalSharp&display=swap');
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 *{
 	font-family: "Cormorant Garamond", serif;
-	margin: auto;
 }
 
 /*CSS da header e seus elementos*/
@@ -26,7 +32,7 @@
         background-image: url(../Assets/logo.png);
         background-repeat: no-repeat;
         padding-left: 45px;
-        margin-left: 50px;
+        margin-left: 0;
         margin-bottom: 15px;
         color: #B8860B;
     }
@@ -58,6 +64,12 @@
         box-shadow: 5px 5px 3px black;
     }
     /*CSS da header e seus elementos*/
+
+main, section, #inicio, #painel, #sobre {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
 
 main{
 	padding-top: 70px;
@@ -223,4 +235,97 @@ img{
 p{
 	margin-top: 5px;
 	font-weight: bold;
+}
+
+/* Responsividade para tablets e telemóveis */
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    header h1 {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+        background-image: none;
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        margin: 0 auto;
+        width: auto;
+    }
+    nav a {
+        margin: 5px 0;
+        font-size: 1rem;
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+    main {
+        padding-top: 90px;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card, .card-mestre {
+        width: 90vw;
+        max-width: 350px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .guia h2, .dados h2, .sistemas h2 {
+        margin-top: 40px;
+        padding-bottom: 100px;
+        font-size: 1.2rem;
+    }
+    #painel, #inicio, #sobre {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 0.9rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #inicio h1 span {
+        font-size: 1.2rem;
+    }
+    #inicio h2 {
+        font-size: 1rem;
+    }
+    #inicio p {
+        font-size: 0.95rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .card, .card-mestre {
+        width: 95vw;
+        max-width: 300px;
+        min-width: 180px;
+        height: auto;
+        font-size: 0.95rem;
+    }
+    .guia h2, .dados h2, .sistemas h2 {
+        margin-top: 20px;
+        padding-bottom: 60px;
+        font-size: 1rem;
+    }
+    img {
+        width: 70px;
+    }
+    #painel, #inicio, #sobre {
+        padding-bottom: 20px;
+    }
 }
