@@ -137,7 +137,10 @@ button{
 	font-weight: bold;
 }
 /*section inicio*/
-
+a{
+    text-decoration: none;
+    color:#2C2C2C;
+}
 section{
 	background-image: url(Assets/FundoTexturaPapel.jpeg);
 	background-repeat: no-repeat;
