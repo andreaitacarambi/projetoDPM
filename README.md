@@ -24,3 +24,5 @@ GitHub Pages: Para alojamento da página.
 
 ## Como Aceder
 Aceda ao Grimório RPG em [https://andreaitacarambi.github.io/projetoDPM/]. Explore os recursos, transfira materiais e comece a sua jornada no RPG de mesa!  
+
+![QRCode link site](https://andreaitacarambi.github.io/projetoDPM/adobe-express-qr-code.png)
