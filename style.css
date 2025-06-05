@@ -30,7 +30,7 @@ html, body {
         text-shadow: black 2.5px 1.5px;
         font-family: "MedievalSharp", cursive;
         font-size: xx-large;
-        background-image: url(../Assets/logo.png);
+        background-image: url(./Assets/logo.png);
         background-repeat: no-repeat;
         padding-left: 45px;
         margin-left: 0;
@@ -374,7 +374,7 @@ p{
         margin: 5px;
         font-size: 1rem;
     }
-    
+
     
     /* Main ajustado */
     main {
