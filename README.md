@@ -23,4 +23,4 @@ HTML/CSS: Para a estrutura, estilo e interatividade da página.
 GitHub Pages: Para alojamento da página.  
 
 ## Como Aceder
-Aceda ao Grimório RPG em [https://andreaitacarambi.github.io/projetoDPM/]. Explore os recursos, transfira materiais e comece a sua jornada no RPG de mesa!
+Aceda ao Grimório RPG em [https://andreaitacarambi.github.io/projetoDPM/]. Explore os recursos, transfira materiais e comece a sua jornada no RPG de mesa!  
