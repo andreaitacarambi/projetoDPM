@@ -382,7 +382,7 @@ p{
     /* Main ajustado */
     main {
         margin: 0;
-        padding-top: 20px; /* Reduz padding já que header não é mais fixo */
+        padding-top: 0px; /* Reduz padding já que header não é mais fixo */
     }
     
     /* Seção início */
